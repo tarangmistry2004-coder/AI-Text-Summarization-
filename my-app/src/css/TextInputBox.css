@@ -1,0 +1,63 @@
+/* From Uiverse.io by EmmaxPlay */ 
+.card {
+ width: 700px;
+ height: max-content;
+ /* width: 190px;
+ height: 254px; */
+ margin: 0 auto;
+ background-color: rgb(228, 208, 244);
+ border-radius: 8px;
+ z-index: 1;
+ opacity: 75%;
+}
+
+.tools {
+ display: flex;
+ align-items: center;
+ padding: 9px;
+}
+
+.circle {
+ padding: 0 4px;
+}
+
+.box {
+ display: inline-block;
+ align-items: center;
+ width: 10px;
+ height: 10px;
+ padding: 1px;
+ border-radius: 50%;
+}
+
+.red {
+ background-color: #ff605c;
+}
+
+.yellow {
+ background-color: #ffbd44;
+}
+
+.green {
+ background-color: #00ca4e;
+}
+
+ 
+.InputText,.OutText {
+  width: 500px;
+  height: 300px;
+  padding: 0 16px;
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid #fe4567;
+  /* color: #f9f9f9; */
+  color : black;
+  resize: none;
+  font-size: large;
+  font-family: 'Times New Roman';
+}
+
+.InputText:valid {
+  border-color: #45feaf;
+  animation: none;
+}
